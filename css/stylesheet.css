@@ -176,6 +176,7 @@ body{
     color:#1F91BE;
     text-align: left;
     width: 100%;
+    font-weight: bold;
     padding-bottom: 9px;
     border-bottom: 4px solid #1F91BE;
 }
@@ -232,7 +233,7 @@ body{
 }
 
 .sidebar{
-     /* width:300px; */
+    min-width:300px;
     display: flex;
     flex-direction: column;
 }
@@ -251,7 +252,7 @@ body{
     margin-bottom: 29px;
 }
 
-.sidebar img{
+.picture img{
     width: 100%;
     height:auto;
     margin: 0 auto;
