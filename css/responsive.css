@@ -2,6 +2,9 @@
 /* for mobile */
 @media all and (max-width: 768px) {
 
+    header{
+        margin-left:15px;
+    }
 
     .inner{
         flex-direction: column;
@@ -30,11 +33,6 @@
         margin-bottom: 40px;
     }
 
-    .about-wrapper{
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-
     /*
     .contents{
         margin: 0 0 0 0;
@@ -60,16 +58,22 @@
         margin-right: 15px;
         margin-left: 15px;
         margin-bottom:60px;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     .about{
         flex-direction: column;
+        justify-content: center;
         width: 100%;
     }
 
     .about1{
-        padding-right:0;
-        padding-left: 0;
+        width:100%;
+    }
+
+    .about2{
+        width:100%;
     }
 
     .about img{
@@ -80,6 +84,7 @@
     }
     
     .news-wrapper{
+        margin-top:60px;
         margin-right: 15px;
         margin-left: 15px;
         margin-bottom:60px;
@@ -117,14 +122,17 @@
 
     .sidebar{
         width:100%;
+        /*
         padding-right: 24px;
         padding-left:  24px;
+        */
     }
 
     .picture{
         margin-bottom:20px;
         margin-right:38px;
         margin-left:38px;
+        padding-left:24px;
     }
 
     .category-wrapper{
@@ -132,6 +140,10 @@
         margin-right: 15px;
         margin-left: 16px;
         margin-bottom:60px;
+    }
+
+    .category{
+        font-size:14px;
     }
 
     .title{
