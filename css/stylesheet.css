@@ -212,18 +212,29 @@ header{
 
 .about{
     display: flex;
+    justify-content: space-between;
     width: 100%;
     /* width: 320px; */
 }
 
+/*
 .about1{
     padding-right: 60px;
 }
+*/
 
 .about img{
     padding:30px 0;
     width: 100%;
     height:auto;
+}
+
+.about1{
+    width:45%;
+}
+
+.about2{
+    width:45%;
 }
 
 .about p{
