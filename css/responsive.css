@@ -6,7 +6,7 @@
     .inner{
         flex-direction: column;
         /* text-align: left; */
-        margin: 20px 15px;
+        margin: 20px 0;
     }
 
     .flex{
@@ -35,9 +35,19 @@
         margin-bottom: 0;
     }
 
+    /*
     .contents{
         margin: 0 0 0 0;
         flex-direction: column;
+    }
+    */
+
+    #contents .inner{
+        padding-right:24px;
+    }
+
+    .main{
+        width: 100%;
     }
 
     .heading{
@@ -63,12 +73,10 @@
     }
 
     .about img{
-        /*
-        width: 100%;
-        height:auto;
-        */
         margin: 0 auto;
         text-align: center;
+        padding-left:20px;
+        padding-right: 20px;
     }
     
     .news-wrapper{
