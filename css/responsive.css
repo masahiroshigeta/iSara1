@@ -42,10 +42,12 @@
 
     #contents .inner{
         padding-right:24px;
+        padding-left:0;
     }
 
     .main{
         width: 100%;
+        margin:0 auto;
     }
 
     .heading{
@@ -79,8 +81,10 @@
     .about img{
         margin: 0 auto;
         text-align: center;
+        /*
         padding-left:20px;
         padding-right: 20px;
+        */
     }
     
     .news-wrapper{
