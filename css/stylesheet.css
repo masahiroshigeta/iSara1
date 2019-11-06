@@ -119,6 +119,12 @@ body{
     font-family: "游ゴシック体", YuGothic;
 }
 
+header{
+    position:fixed;
+    width: 100%;
+    background: #fff;
+}
+
 
 .inner{
     width:1080px;
@@ -139,6 +145,11 @@ body{
     font-size:31px;
 }
 
+.logo a{
+    color: #1F91BE;
+    text-decoration: none;
+}
+
 .header-right li{
     color: black;
     font-weight:bold;
@@ -149,6 +160,7 @@ body{
 }
 
 .top-wrapper{
+    padding-top:75px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom:100px;
@@ -162,12 +174,16 @@ body{
 }
 
 .contents{
+    width:1080px;
+    max-width:100%;
     display: flex;
     justify-content: space-between;
     margin: 0 100px 100px 100px;
 }
 
+
 .about-wrapper{
+    width: 100%;
     margin-bottom: 40px;
 }
 
@@ -195,13 +211,21 @@ body{
 }
 
 .about p{
+    line-height:1.6875;
+    letter-spacing: 0;
     padding-top: 0;
     margin-top:0;
+}
+
+.news-wrapper{
+    width: 100%;
 }
 
 .news-wrapper table{
     width: 700px;
     height: 190px;
+    width: 100%;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 20px;
     border-collapse: collapse;
@@ -219,6 +243,8 @@ body{
 .news-wrapper td{
     width: 555px;
     font-size:14px;
+    line-height: 1.71429;
+    letter-spacing: 0;
     text-align: left;
     vertical-align:middle;
     border-bottom: 1px solid black;
@@ -233,7 +259,8 @@ body{
 }
 
 .sidebar{
-    min-width:300px;
+    /* width: 100%; */
+    /* min-width:300px; */
     display: flex;
     flex-direction: column;
 }
@@ -253,14 +280,19 @@ body{
 }
 
 .picture img{
+    /*
     width: 100%;
     height:auto;
+    */
     margin: 0 auto;
     text-align: center;
 }
 
 .category{
     margin-left:20px;
+    letter-spacing: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 footer{
