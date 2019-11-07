@@ -12,6 +12,12 @@
         margin: 20px 0;
     }
 
+    header .inner{
+        padding-right: 0;
+        padding-left:  0;
+    }
+    
+
     .flex{
         justify-content: flex-start;
     }
