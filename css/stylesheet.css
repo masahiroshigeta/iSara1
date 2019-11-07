@@ -133,6 +133,11 @@ header{
     margin: 22px auto;
 }
 
+header .inner{
+    padding-right: 24px;
+    padding-left:   24px;
+}
+
 .flex{
     display: flex;
     justify-content: space-between;
